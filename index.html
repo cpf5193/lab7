@@ -3,15 +3,15 @@
     <head>
         <meta charset="UTF-8">
         <meta name="description" content="INFO 343 Lab 7, AJAX and Mashups">
-        <meta name="author" content="YOUR UW NET ID">
+        <meta name="author" content="cpf5193">
         <title>Earthquakes!</title>
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
         <h1>Earthquakes Recorded Over the Last 7 Days</h1>
-        <p class="message"></p>
+        <p class="message loading"></p>
 
-        <div class="map-container"></div>
+        <div class="map-container loading"></div>
 
         <!-- hot link to jQuery 2.0.3 -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -22,7 +22,7 @@
                 'key' query string parameter with your own key
                 to get a key, go to https://code.google.com/apis/console
         -->
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqnfFcZYL5k3Tav9kCUmZOSC-42yJupmc&amp;sensor=false"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABojs0jVOSWaxi4dkw5mtusT8EbFApP2M&amp;sensor=false"></script>
         
         <!-- our own JavaScript -->
         <script src="js/earthquakes.js"></script>
